@@ -1,0 +1,67 @@
+{
+    "suppliers": {
+        "ABC AB" : {
+            "carbon_footprint": 8,
+            "responsible_sourcing": 7,
+            "labor_standards": 6,
+            "tree_types": {
+                "pine": {
+                    "carbon_footprint": 4,
+                    "responsible_sourcing": 7,
+                    "amount": 123
+                },
+                "Oak": {
+                    "carbon_footprint": 5,
+                    "responsible_sourcing": 4,
+                    "amount": 566
+                },
+                "Birch": {
+                    "carbon_footprint": 3,
+                    "responsible_sourcing": 2,
+                    "amount": 988
+                }
+            }
+
+        },
+        "HEJ AB" : {
+            "carbon_footprint": 4,
+            "responsible_sourcing": 7,
+            "labor_standards": 5,
+            "tree_types": {
+                "pine": {
+                    "carbon_footprint": 4,
+                    "responsible_sourcing": 7,
+                    "amount": 123
+                },
+                "Acai": {
+                    "carbon_footprint": 4,
+                    "responsible_sourcing": 2,
+                    "amount": 564
+                }
+            }
+
+        },
+        "BOB AB" : {
+            "carbon_footprint": 2,
+            "responsible_sourcing": 8,
+            "labor_standards": 9,
+            "tree_types": {
+                "pine": {
+                    "carbon_footprint": 5,
+                    "responsible_sourcing": 7,
+                    "amount": 163
+                },
+                "Oak": {
+                    "carbon_footprint": 3,
+                    "responsible_sourcing": 4,
+                    "amount": 569
+                },
+                "Birch": {
+                    "carbon_footprint": 3,
+                    "responsible_sourcing": 4,
+                    "amount": 968
+                }
+            }
+        }
+    }
+}
