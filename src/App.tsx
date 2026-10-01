@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<ProjectInfoPage />} />
         <Route path="/app" element={<SupplierGridPage />} />
-        <Route path="/app/supplier" element={<SupplierInfoPage />} />
+        <Route path="/app/supplier" element={<SupplierInfoPage supplier_id="HEJ AB"/>} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </HashRouter>
