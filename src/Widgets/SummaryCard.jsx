@@ -13,7 +13,7 @@ export default function ExamplesCard({ id }) {
     }
 
     return (
-        <div className='summary-container' onClick={() => navigate(`/${id}`)}>
+        <div className='summary-container' onClick={() => navigate(`/app/suppliers/${id}`)}>
             <p className='summary-header'>
                 {supplier["display_name"]}
             </p>
