@@ -4,9 +4,8 @@ import SupplierSummary from "../components/SupplierSummary";
 
 import suppliers_data from '../../data/supplier_data.json'
 
-type SupplierId = keyof typeof suppliers_data.suppliers;
 
-export default function SupplierInfoPage({ supplier_id }: { supplier_id: SupplierId }) {
+export default function SupplierInfoPage({ supplier_id }) {
     const data = suppliers_data.suppliers[supplier_id]
 
     return (
