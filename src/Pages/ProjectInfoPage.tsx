@@ -1,7 +1,13 @@
 import '../style/ProjectInfoPage.css'
 
+import SummaryCard from '../Widgets/SummaryCard.tsx'
+
+
 export default function ProjectInfoPage() {
     return (
-        <p>hello</p>
+        <main className="page-container">
+            <SummaryCard id="abc_ab" />
+        </main>
+
     );
 }

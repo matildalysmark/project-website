@@ -1,8 +1,8 @@
 import '../style/SupplierGridPage.css';
-import supplier_data from '../../data/supplier_data.json'
+// import supplier_data from '../../data/supplier_data.json'
 
 export default function SupplierGridPage() {
-    const suppliers = JSON.stringify(supplier_data);
+    // const suppliers = JSON.stringify(supplier_data);
 
     return (
         <section id="home-page">
