@@ -1,10 +1,4 @@
-type SupplierSummaryData = {
-    carbon_footprint: number;
-    responsible_sourcing: number;
-    labor_standards: number;
-};
-
-export default function SupplierSummary({ data }: { data: SupplierSummaryData }) {
+export default function SupplierSummary({ data }: any) {
 
 
     return (
