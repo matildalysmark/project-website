@@ -1,4 +1,4 @@
-export default function SupplierDataTable({ data }: any) {
+export default function SupplierDataTable({ data }: { data: unknown }) {
     return (
         JSON.stringify(data)
     )
