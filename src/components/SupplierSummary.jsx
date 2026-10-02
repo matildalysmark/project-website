@@ -1,4 +1,4 @@
-export default function SupplierSummary({ data }: any) {
+export default function SupplierSummary({ data }) {
 
 
     return (

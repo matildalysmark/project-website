@@ -1,6 +1,6 @@
 import '../style/ProjectInfoPage.css'
 
-import SummaryCard from '../Widgets/SummaryCard.tsx'
+import SummaryCard from '../Widgets/SummaryCard.jsx'
 
 
 export default function ProjectInfoPage() {
