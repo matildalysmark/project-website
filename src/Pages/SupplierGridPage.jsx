@@ -1,8 +1,9 @@
 import '../style/SupplierGridPage.css';
-// import supplier_data from '../../data/supplier_data.json'
+import supplier_data from '../../data/supplier_data.json';
+import SummaryCard from '../Widgets/SummaryCard';
 
 export default function SupplierGridPage() {
-    // const suppliers = JSON.stringify(supplier_data);
+    const supplierIds = Object.keys(supplier_data.suppliers);
 
     return (
         <section id="home-page">
@@ -13,7 +14,9 @@ export default function SupplierGridPage() {
             <div className='top-grid-container'>
                 <div className='top-grid'>
                     <div className='grid'>
-                        {/* {create Mapper for this} */}
+                        {supplierIds.map((supplierId) => (
+                            <SummaryCard key={supplierId} id={supplierId} />
+                        ))}
                     </div>
                 </div>
             </div>
