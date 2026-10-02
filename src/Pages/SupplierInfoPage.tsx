@@ -11,7 +11,7 @@ export default function SupplierInfoPage({ supplier_id }: { supplier_id: Supplie
 
     return (
         <div>
-            <h1>{supplier_id}</h1>
+            <h1>{data.display_name}</h1>
             <br />
             <div>
                 <h2>Summary</h2>
