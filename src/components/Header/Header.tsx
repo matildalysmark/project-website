@@ -1,15 +1,6 @@
-import './Header.css'
+import React from 'react';
+import { InteractiveHeader } from './InteractiveHeader';
 
-function Header() {
-  return (
-    <header className="site-header">
-      <div className="header-inner">
-        <div className="brand-wrap" aria-label="IKEA logo">
-          <div className="brand-mark">I</div>
-        </div>
-      </div>
-    </header>
-  )
+export default function Header() {
+  return <InteractiveHeader title="ITREEA" />;
 }
-
-export default Header

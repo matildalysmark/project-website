@@ -3,10 +3,12 @@ import ProjectInfoPage from "./Pages/ProjectInfoPage";
 import SupplierGridPage from './Pages/SupplierGridPage'
 import SupplierInfoPage from "./Pages/SupplierInfoPage";
 import NotFoundPage from "./Pages/NotFoundPage";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <HashRouter>
+      <Header/>
       <Routes>
         <Route path="/" element={<ProjectInfoPage />} />
         <Route path="/app" element={<SupplierGridPage />} />
