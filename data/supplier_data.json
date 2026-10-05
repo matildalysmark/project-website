@@ -129,8 +129,8 @@
             }
 
         },
-        "roten_ab" : {
-            "display_name": "Roten AB",
+        "bich_bros_ab" : {
+            "display_name": "Birch Bros AB",
             "carbon_footprint": 8,
             "responsible_sourcing": 7,
             "labor_standards": 6,
@@ -229,33 +229,63 @@
         },
         "arborex_ab" : {
             "display_name": "Arborex AB",
-            "carbon_footprint": 8,
+            "carbon_footprint": 5,
             "responsible_sourcing": 7,
-            "labor_standards": 6
+            "labor_standards": 6.6
         },
-        "tradkallan_ab" : {
-            "display_name": "Trädkällan AB",
+        "bonsaii" : {
+            "display_name": "Bonsaii",
             "carbon_footprint": 5,
             "responsible_sourcing": 3.4,
             "labor_standards": 6
         },
-        "rooted_ab" : {
-            "display_name": "Rooted AB",
+        "swetree_ab" : {
+            "display_name": "SweTree AB",
             "carbon_footprint": 8,
-            "responsible_sourcing": 7,
+            "responsible_sourcing": 7.3,
             "labor_standards": 6
         },
         "sapsource_ab" : {
             "display_name": "SapSource AB",
             "carbon_footprint": 8,
             "responsible_sourcing": 7,
-            "labor_standards": 6
+            "labor_standards": 6.6
         },
         "terratrunk_ab" : {
             "display_name": "TerraTrunk AB",
             "carbon_footprint": 8,
-            "responsible_sourcing": 7,
+            "responsible_sourcing": 9,
             "labor_standards": 6
+        },
+        "treetops_inc" : {
+            "display_name": "TreeTops Inc",
+            "carbon_footprint": 8,
+            "responsible_sourcing": 8,
+            "labor_standards": 6
+        },
+        "pine_guys" : {
+            "display_name": "Pine Guys",
+            "carbon_footprint": 8,
+            "responsible_sourcing": 6,
+            "labor_standards": 6
+        },
+        "roten_ab" : {
+            "display_name": "Roten AB",
+            "carbon_footprint": 9,
+            "responsible_sourcing": 7,
+            "labor_standards": 4
+        },
+        "woodland_inc" : {
+            "display_name": "Woodland Inc",
+            "carbon_footprint": 4,
+            "responsible_sourcing": 5,
+            "labor_standards": 2
+        },
+        "oak_ay_inc" : {
+            "display_name": "Oak-ay Inc",
+            "carbon_footprint": 5,
+            "responsible_sourcing": 7,
+            "labor_standards": 3
         }
     }
 }
