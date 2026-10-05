@@ -1,12 +1,9 @@
 import React from 'react';
-import type { TreeInstance } from './types';
 import './treestyle.css';
 
-interface TreeProps {
-  tree: TreeInstance;
-}
 
-export const Tree: React.FC<TreeProps> = ({ tree }) => {
+
+export const Tree= ({ tree }) => {
   const { x, y, scale, variant, depthZ } = tree;
 
   return (
@@ -17,8 +14,8 @@ export const Tree: React.FC<TreeProps> = ({ tree }) => {
         position: 'absolute',
         left: `${x}px`,
         top: `${y}px`,
-        width: `${56 * scale}px`,
-        height: `${84 * scale}px`,
+        width: `${45 * scale}px`,
+        height: `${75 * scale}px`,
         zIndex: depthZ,
         transformOrigin: 'bottom center',
         pointerEvents: 'none',

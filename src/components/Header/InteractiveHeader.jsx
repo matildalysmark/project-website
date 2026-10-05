@@ -1,17 +1,14 @@
 import React, { useState, useEffect, useRef } from 'react';
-import type { TreeInstance } from './types';
-import { Tree } from './Tree';
+import {Tree} from './Tree'
 import './treestyle.css';
 
-interface InteractiveHeaderProps {
-  title?: string;
-}
 
-export const InteractiveHeader: React.FC<InteractiveHeaderProps> = ({ title = "ITREEA" }) => {
-  const [trees, setTrees] = useState<TreeInstance[]>([]);
-  const ovalRef = useRef<HTMLDivElement>(null);
 
-  const getPointInsideOval = (width: number, height: number) => {
+export const InteractiveHeader = ({ title = "ITREEA" }) => {
+  const [trees, setTrees] = useState([]);
+  const ovalRef = useRef(null);
+
+  const getPointInsideOval = (width, height) => {
     const rx = (width / 2) * 0.86;
     const ry = (height / 2) * 0.78;
     const cx = width / 2;
@@ -27,7 +24,7 @@ export const InteractiveHeader: React.FC<InteractiveHeaderProps> = ({ title = "I
   };
 
   useEffect(() => {
-    const MAX_TREES = 48;
+    const MAX_TREES = 35;
 
     const timer = setInterval(() => {
       setTrees((prev) => {
@@ -44,7 +41,7 @@ export const InteractiveHeader: React.FC<InteractiveHeaderProps> = ({ title = "I
         const verticalRatio = y / height;
         const baseScale = 0.8 + verticalRatio * 0.45;
 
-        const newTree: TreeInstance = {
+        const newTree = {
           id: `${Date.now()}-${Math.random()}`,
           x,
           y,
