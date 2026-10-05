@@ -1,70 +1,169 @@
 {
     "suppliers": {
-        "abc_ab" : {
-            "display_name": "ABC AB",
+        "timberco_ab" : {
+            "display_name": "TimberCo AB",
+            "carbon_footprint": 5.3,
+            "responsible_sourcing": 7.6,
+            "labor_standards": 7,
+            "months": {
+                "2026-01": {
+                    "labor_standards": 7,
+                    "tree_types": {
+                        "pine": {
+                            "carbon_footprint": 5,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        },
+                        "oak": {
+                            "carbon_footprint": 5,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        },
+                        "birch": {
+                            "carbon_footprint": 5,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        }
+                    }
+                },
+                "2026-02": {
+                    "labor_standards": 7,
+                    "tree_types": {
+                        "pine": {
+                            "carbon_footprint": 5,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        },
+                        "oak": {
+                            "carbon_footprint": 5,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        },
+                        "birch": {
+                            "carbon_footprint": 5,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        }
+                    }
+                },
+                "2026-03": {
+                    "labor_standards": 6,
+                    "tree_types": {
+                        "pine": {
+                            "carbon_footprint": 6,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        },
+                        "oak": {
+                            "carbon_footprint": 5,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        },
+                        "birch": {
+                            "carbon_footprint": 5,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        }
+                    }
+                },
+                "2026-04": {
+                    "labor_standards": 6,
+                    "tree_types": {
+                        "pine": {
+                            "carbon_footprint": 6,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        },
+                        "oak": {
+                            "carbon_footprint": 5,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        },
+                        "birch": {
+                            "carbon_footprint": 5,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        }
+                    }
+                },
+                "2026-05": {
+                    "labor_standards": 7,
+                    "tree_types": {
+                        "pine": {
+                            "carbon_footprint": 6,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        },
+                        "oak": {
+                            "carbon_footprint": 5,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        },
+                        "birch": {
+                            "carbon_footprint": 5,
+                            "responsible_sourcing": 7,
+                            "amount": 123
+                        }
+                    }
+                },
+                "2026-06": {
+                    "labor_standards": 7,
+                    "tree_types": {
+                        "pine": {
+                            "carbon_footprint": 6,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        },
+                        "oak": {
+                            "carbon_footprint": 5,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        },
+                        "birch": {
+                            "carbon_footprint": 5,
+                            "responsible_sourcing": 7,
+                            "amount": 123
+                        }
+                    }
+                }
+            }
+
+        },
+        "roten_ab" : {
+            "display_name": "Roten AB",
             "carbon_footprint": 8,
             "responsible_sourcing": 7,
-            "labor_standards": 6,
-            "tree_types": {
-                "pine": {
-                    "carbon_footprint": 4,
-                    "responsible_sourcing": 7,
-                    "amount": 123
-                },
-                "Oak": {
-                    "carbon_footprint": 5,
-                    "responsible_sourcing": 4,
-                    "amount": 566
-                },
-                "Birch": {
-                    "carbon_footprint": 3,
-                    "responsible_sourcing": 2,
-                    "amount": 988
-                }
-            }
-
+            "labor_standards": 6
         },
-        "hej_ab" : {
-            "display_name": "HEJ AB",
-            "carbon_footprint": 4,
+        "arborex_ab" : {
+            "display_name": "Arborex AB",
+            "carbon_footprint": 8,
             "responsible_sourcing": 7,
-            "labor_standards": 5,
-            "tree_types": {
-                "pine": {
-                    "carbon_footprint": 4,
-                    "responsible_sourcing": 7,
-                    "amount": 123
-                },
-                "Acai": {
-                    "carbon_footprint": 4,
-                    "responsible_sourcing": 2,
-                    "amount": 564
-                }
-            }
-
+            "labor_standards": 6
         },
-        "bob_ab" : {
-            "display_name": "BOB AB",
-            "carbon_footprint": 2,
-            "responsible_sourcing": 8,
-            "labor_standards": 9,
-            "tree_types": {
-                "pine": {
-                    "carbon_footprint": 5,
-                    "responsible_sourcing": 7,
-                    "amount": 163
-                },
-                "Oak": {
-                    "carbon_footprint": 3,
-                    "responsible_sourcing": 4,
-                    "amount": 569
-                },
-                "Birch": {
-                    "carbon_footprint": 3,
-                    "responsible_sourcing": 4,
-                    "amount": 968
-                }
-            }
+        "tradkallan_ab" : {
+            "display_name": "Trädkällan AB",
+            "carbon_footprint": 5,
+            "responsible_sourcing": 3.4,
+            "labor_standards": 6
+        },
+        "rooted_ab" : {
+            "display_name": "Rooted AB",
+            "carbon_footprint": 8,
+            "responsible_sourcing": 7,
+            "labor_standards": 6
+        },
+        "sapsource_ab" : {
+            "display_name": "SapSource AB",
+            "carbon_footprint": 8,
+            "responsible_sourcing": 7,
+            "labor_standards": 6
+        },
+        "terratrunk_ab" : {
+            "display_name": "TerraTrunk AB",
+            "carbon_footprint": 8,
+            "responsible_sourcing": 7,
+            "labor_standards": 6
         }
     }
 }
