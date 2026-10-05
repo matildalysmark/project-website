@@ -1,0 +1,23 @@
+.top-grid-container {
+    width: 100%;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.top-grid,
+.grid {
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    gap: 24px;
+    align-items: start;
+    justify-content: center;
+}
+
+.grid > * {
+    width: 100%;
+    max-width: 200px;
+}

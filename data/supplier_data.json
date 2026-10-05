@@ -1,6 +1,7 @@
 {
     "suppliers": {
-        "ABC AB" : {
+        "abc_ab" : {
+            "display_name": "ABC AB",
             "carbon_footprint": 8,
             "responsible_sourcing": 7,
             "labor_standards": 6,
@@ -23,7 +24,8 @@
             }
 
         },
-        "HEJ AB" : {
+        "hej_ab" : {
+            "display_name": "HEJ AB",
             "carbon_footprint": 4,
             "responsible_sourcing": 7,
             "labor_standards": 5,
@@ -41,7 +43,8 @@
             }
 
         },
-        "BOB AB" : {
+        "bob_ab" : {
+            "display_name": "BOB AB",
             "carbon_footprint": 2,
             "responsible_sourcing": 8,
             "labor_standards": 9,
