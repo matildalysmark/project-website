@@ -133,7 +133,99 @@
             "display_name": "Roten AB",
             "carbon_footprint": 8,
             "responsible_sourcing": 7,
-            "labor_standards": 6
+            "labor_standards": 6,
+            "months": {
+                "2026-01": {
+                    "labor_standards": 4,
+                    "tree_types": {
+                        "acai": {
+                            "carbon_footprint": 5,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        },
+                        "oak": {
+                            "carbon_footprint": 5,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        }
+                    }
+                },
+                "2026-02": {
+                    "labor_standards": 4,
+                    "tree_types": {
+                        "acai": {
+                            "carbon_footprint": 5,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        },
+                        "oak": {
+                            "carbon_footprint": 5,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        }
+                    }
+                },
+                "2026-03": {
+                    "labor_standards": 5,
+                    "tree_types": {
+                        "acai": {
+                            "carbon_footprint": 6,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        },
+                        "oak": {
+                            "carbon_footprint": 5,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        }
+                    }
+                },
+                "2026-04": {
+                    "labor_standards": 5,
+                    "tree_types": {
+                        "acai": {
+                            "carbon_footprint": 6,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        },
+                        "oak": {
+                            "carbon_footprint": 6,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        }
+                    }
+                },
+                "2026-05": {
+                    "labor_standards": 5,
+                    "tree_types": {
+                        "acai": {
+                            "carbon_footprint": 6,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        },
+                        "oak": {
+                            "carbon_footprint": 6,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        }
+                    }
+                },
+                "2026-06": {
+                    "labor_standards": 5,
+                    "tree_types": {
+                        "acai": {
+                            "carbon_footprint": 7,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        },
+                        "oak": {
+                            "carbon_footprint": 5,
+                            "responsible_sourcing": 8,
+                            "amount": 123
+                        }
+                    }
+                }
+            }
         },
         "arborex_ab" : {
             "display_name": "Arborex AB",
