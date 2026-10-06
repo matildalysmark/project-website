@@ -9,4 +9,10 @@
     align-items: center;
     justify-content: center;
     margin-left: 10px;
+    transition-duration: 0.1s;
+}
+
+.custom-score-edit-button:hover {
+    translate: 0 -1px;
+    outline-style: auto;
 }
