@@ -19,16 +19,18 @@ import { Chart } from "react-google-charts";
  *   axes={["Year", "Score"]}
  *   inputData={[[2000, 56], [2010, 74], [2005, 86]]}
  *   title="Sample Chart (ScatterChart)"
+ *   backgroundColor="lightblue"
  * />
  * 
  */
-function RegularScatterChart({ axes, inputData, title }) {
+function RegularScatterChart({ axes, inputData, title, backgroundColor }) {
   return (
     <Chart
       chartType="ScatterChart"
       data={[axes, ...inputData]}
       options={{
         title: title,
+        backgroundColor: backgroundColor,
       }}
       legendToggle
     />

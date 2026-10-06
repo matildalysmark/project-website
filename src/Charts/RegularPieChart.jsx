@@ -7,6 +7,7 @@ import { Chart } from "react-google-charts";
  * @param {Array<[string, string]>} props.axes - The name of the chart axes.
  * @param {Array<[string, number]>} props.inputData - The data to display. Format: [[label1, value1], [label2, value2], ...]
  * @param {string} [props.title] - The chart title.
+ * @param {string} [props.backgroundColor] - The background color of the chart.
  * @returns {JSX.Element}
  * 
  * @description
@@ -19,15 +20,17 @@ import { Chart } from "react-google-charts";
  *   axes={["TreeType", "Amount"]}
  *   inputData={[["Pine", 56], ["Oak", 86], ["Birch", 74]]}
  *   title="Sample Chart (PieChart)"
+ *   backgroundColor="lightblue"
  * />
  */
-function RegularPieChart({ axes, inputData, title }) {
+function RegularPieChart({ axes, inputData, title, backgroundColor }) {
   return (
     <Chart
       chartType="PieChart"
       data={[axes, ...inputData]}
       options={{
         title: title,
+        backgroundColor: backgroundColor
       }}
       width={"100%"}
       height={"300px"}
