@@ -1,6 +1,9 @@
 import '../style/ProjectInfoPage.css';
+import { useNavigate } from 'react-router-dom';
 
 export default function ProjectInfoPage() {
+    const navigate = useNavigate();
+
     return (
         <main className="page-container">
             <header className="info-header">
@@ -19,6 +22,9 @@ export default function ProjectInfoPage() {
                     ITREEA allows sourcing leaders to instantly identify and replace non-sustainable components, reducing friction and securing a reliable and transparent supply chain!
                 </p>
             </section>
+            <button type="button" onClick={() => navigate("/app")}>
+                TO DEMO
+            </button>
         </main>
     );
 }

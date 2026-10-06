@@ -1,15 +1,13 @@
 .top-grid-container {
     width: 100%;
-    padding: 24px;
     box-sizing: border-box;
+    padding: 0 24px 24px 24px;
 }
 
-.top-grid,
 .grid {
     width: 100%;
-}
-
-.grid {
+    max-width: 1400px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, 200px);
     gap: 24px;
@@ -20,4 +18,12 @@
 .grid > * {
     width: 100%;
     max-width: 200px;
+}
+
+
+.filter-row-container {
+    grid-column: 1 / -1; 
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
