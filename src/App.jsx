@@ -13,7 +13,7 @@ function App() {
     <HashRouter>
       <Routes>
         <Route path="/" element={<ProjectInfoPage />} />
-        <Route path="/app" element={<HomePage/>} />
+        <Route path="/app" element={<SupplierGridPage/>} />
         {supplierIds.map((supplierId) => (
           <Route
             key={supplierId}
