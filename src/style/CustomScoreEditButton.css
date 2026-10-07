@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.custom-score-edit-button {
+    background-color: #2C594F;
+    border-radius: 10px;
+    width: 130px;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    transition-duration: 0.1s;
+}
+
+.custom-score-edit-button:hover {
+    translate: 0 -1px;
+    outline-style: auto;
+}
