@@ -2,8 +2,10 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import ProjectInfoPage from "./Pages/ProjectInfoPage";
 import SupplierGridPage from './Pages/SupplierGridPage'
 import SupplierInfoPage from "./Pages/SupplierInfoPage";
+import ComparePage from "./Pages/ComparePage";
 import NotFoundPage from "./Pages/NotFoundPage";
 import supplier_data from '../data/supplier_data.json';
+import CustomScoreEdit from './components/CustomScoreEdit'
 import HomePage from "./Pages/HomePage";
 import Header from "./components/Header/Header";
 import { SidebarBox } from "./components/Sidebar/sidebarbox";
@@ -22,6 +24,7 @@ function App() {
             <Routes>
               <Route path="/" element={<ProjectInfoPage />} />
               <Route path="/app" element={<SupplierGridPage />} />
+              <Route path="/app/compare" element={<ComparePage />} />
               {supplierIds.map((supplierId) => (
                 <Route
                   key={supplierId}
