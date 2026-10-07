@@ -23,8 +23,10 @@ function App() {
           <main style={{ flex: 1, overflowY: "auto" }}>
             <Routes>
               <Route path="/" element={<ProjectInfoPage />} />
-              <Route path="/app" element={<SupplierGridPage />} />
+              <Route path="/app" element={<HomePage />} />
               <Route path="/app/compare" element={<ComparePage />} />
+              <Route path="/app/custom_score" element={<CustomScoreEdit />} />
+              <Route path="/app/suppliers" element={<SupplierGridPage />} />
               {supplierIds.map((supplierId) => (
                 <Route
                   key={supplierId}
