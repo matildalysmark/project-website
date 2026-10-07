@@ -1,0 +1,28 @@
+.page-container {
+
+    background-color: #0058A3;
+    min-height: 100vh;
+    color: yellow;
+    padding: 40px;
+}
+
+.info-header {
+        text-align: center;
+    }
+
+.subtitle{
+    font-size: 18px;
+}
+
+.info-content{
+    max-width: 900px;
+    margin: 40px auto
+}
+
+.info-content h2 {
+    margin-bottom: 20px;
+}
+
+.info-content p{
+    line-height: 1.6;
+}

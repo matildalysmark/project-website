@@ -7,7 +7,7 @@ export default function ProjectInfoPage() {
     return (
         <main className="page-container">
             <header className="info-header">
-                <h1>Hello! Welcome to ITREEA!</h1>
+                <h1>Hello! We are Group 1 and Welcome to ITREEA!</h1>
                 <p className="subtitle">
                     <em>ITREEA is an internal sustainability dashboard for IKEA that centralizes fragmented supply chain data into one single website!</em>
                 </p>
@@ -25,6 +25,11 @@ export default function ProjectInfoPage() {
             <button type="button" onClick={() => navigate("/app")}>
                 TO DEMO
             </button>
+            <section>
+                <p>
+                    made with love by; Elsa, Gabriel, Emma, Matilda, Jacob and Freja.
+                </p>
+            </section>
         </main>
     );
 }
