@@ -3,6 +3,7 @@ import supplierData from "../../data/supplier_data.json";
 import "../style/ComparePage.css";
 import { RefreshCw } from "lucide-react";
 import SupplierList from "../Widgets/SupplierList";
+import { getAverageScore } from "../helper/scoreUtils";
 
 
 
@@ -48,7 +49,7 @@ export default function ComparePage() {
                     <tr>
                         <th scope="row">Overall score</th>
                         {selectedSuppliers.map((supplier) => (
-                            <td key={supplier.display_name}>{/* overall score here */}</td>
+                            <td key={supplier.display_name}>{getAverageScore(supplier)}</td>
                         ))}
                     </tr>
                     {Object.entries(metricsFromData).map(([key, label]) => (

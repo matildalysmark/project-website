@@ -1,6 +1,8 @@
 import '../style/SupplierGridPage.css';
 import supplier_data from '../../data/supplier_data.json';
 import SummaryCard from '../Widgets/SummaryCard';
+import FilterButton from '../Widgets/FilterButton';
+import CustomScoreEditButton from '../components/CustomScoreEditButton'
 
 export default function SupplierGridPage() {
     const supplierIds = Object.keys(supplier_data.suppliers);
@@ -12,12 +14,16 @@ export default function SupplierGridPage() {
                 Suppliers
             </h1>
             <div className='top-grid-container'>
-                <div className='top-grid'>
-                    <div className='grid'>
-                        {supplierIds.map((supplierId) => (
-                            <SummaryCard key={supplierId} id={supplierId} />
-                        ))}
+                <div className='grid'>
+                    <div className="filter-row-container">
+                        <FilterButton />
+                        <CustomScoreEditButton />
                     </div>
+
+                    {supplierIds.map((supplierId) => (
+                        <SummaryCard key={supplierId} id={supplierId} />
+                    ))}
+
                 </div>
             </div>
         </section>

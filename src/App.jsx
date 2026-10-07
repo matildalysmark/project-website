@@ -5,6 +5,7 @@ import SupplierInfoPage from "./Pages/SupplierInfoPage";
 import ComparePage from "./Pages/ComparePage";
 import NotFoundPage from "./Pages/NotFoundPage";
 import supplier_data from '../data/supplier_data.json';
+import CustomScoreEdit from './components/CustomScoreEdit'
 
 function App() {
   const supplierIds = Object.keys(supplier_data.suppliers);
@@ -22,6 +23,7 @@ function App() {
             element={<SupplierInfoPage supplier_id={supplierId} />}
           />
         ))}
+        <Route path="/app/custom_score" element={<CustomScoreEdit />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </HashRouter>
