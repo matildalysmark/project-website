@@ -1,10 +1,12 @@
 import React, {useState} from 'react';
 import { NavItem, UserProfile} from './SidebarItems';
 import './Sidebar.css';
+import { useNavigate } from 'react-router-dom'
 
 
 export function SidebarBox() {
-    const [activeTab, setActiveTab] = useState('Suppliers');
+    const [activeTab, setActiveTab] = useState('Home');
+    const navigate = useNavigate()
 
     return(
         <aside className='sidebar-container'>
@@ -21,22 +23,31 @@ export function SidebarBox() {
             <div className='sidebar-section-title'>WORKSPACE</div>
             <nav className='sidebar-nav'>
                 <NavItem
-                    label='Dashboard'
+                    label='Home'
                     
-                    isActive={activeTab == 'Dashbrod'}
-                    onClick={() => setActiveTab('Dashboard')}
+                    isActive={activeTab == 'Home'}
+                    onClick={() => {
+                        navigate(`/app`)
+                        setActiveTab('Home')
+                    }}
                 />
                  <NavItem
                     label='Suppliers'
                  
                     isActive={activeTab == 'Suppliers'}
-                    onClick={() => setActiveTab('Suppliers')}
+                    onClick={() => {
+                        navigate(`/app/suppliers`)
+                        setActiveTab('Suppliers')
+                    }}
                 />
                  <NavItem
                     label='Compare'
                 
                     isActive={activeTab == 'Compare'}
-                    onClick={() => setActiveTab('Comapare')}
+                    onClick= {() => {
+                        navigate(`/app/compare`)
+                        setActiveTab('Compare')
+                    }}
                 />
             </nav>
 
