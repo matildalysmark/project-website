@@ -7,6 +7,7 @@ import { Chart } from "react-google-charts";
  * @param {Array<[string, string] | [string, string, { role: "style" }]>} props.axes - The name of the chart axes. Add third value { role: "style" } if styling is needed.
  * @param {Array<[string, number] | [string, number, string]>} props.inputData - The data to display. Format: [[label1, value1], [label2, value2], ...] or [[label1, value1, color1], [label2, value2, color2], ...] if styling is included.
  * @param {string} [props.title] - The chart title.
+ * @param {string} [props.backgroundColor] - The background color of the chart.
  * @returns {JSX.Element}
  * 
  * @description
@@ -29,15 +30,17 @@ import { Chart } from "react-google-charts";
  *   axes={["TreeType", "Amount", { role: "style" }]}
  *   inputData={[["Pine", 56, "Brown"], ["Oak", 86, "Green"]]}
  *   title="Column Chart with Custom Colors"
+ *   backgroundColor="lightblue"
  * />
  */
-function RegularColumnChart({ axes, inputData, title }) {
+function RegularColumnChart({ axes, inputData, title, backgroundColor }) {
   return (
     <Chart
       chartType="ColumnChart"
       data={[axes, ...inputData]}
       options={{
         title: title,
+        backgroundColor: backgroundColor
       }}
       legendToggle
     />

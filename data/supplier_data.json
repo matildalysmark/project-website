@@ -12,17 +12,17 @@
                         "pine": {
                             "carbon_footprint": 5,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 0
                         },
                         "oak": {
                             "carbon_footprint": 5,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 176
                         },
                         "birch": {
                             "carbon_footprint": 5,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 161
                         }
                     }
                 },
@@ -32,17 +32,17 @@
                         "pine": {
                             "carbon_footprint": 5,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 159
                         },
                         "oak": {
                             "carbon_footprint": 5,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 198
                         },
                         "birch": {
                             "carbon_footprint": 5,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 102
                         }
                     }
                 },
@@ -52,17 +52,17 @@
                         "pine": {
                             "carbon_footprint": 6,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 159
                         },
                         "oak": {
                             "carbon_footprint": 5,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 163
                         },
                         "birch": {
                             "carbon_footprint": 5,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 184
                         }
                     }
                 },
@@ -72,17 +72,17 @@
                         "pine": {
                             "carbon_footprint": 6,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 6
                         },
                         "oak": {
                             "carbon_footprint": 5,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 70
                         },
                         "birch": {
                             "carbon_footprint": 5,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 158
                         }
                     }
                 },
@@ -92,17 +92,17 @@
                         "pine": {
                             "carbon_footprint": 6,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 43
                         },
                         "oak": {
                             "carbon_footprint": 5,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 228
                         },
                         "birch": {
                             "carbon_footprint": 5,
                             "responsible_sourcing": 7,
-                            "amount": 123
+                            "amount": 126
                         }
                     }
                 },
@@ -112,17 +112,17 @@
                         "pine": {
                             "carbon_footprint": 6,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 188
                         },
                         "oak": {
                             "carbon_footprint": 5,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 143
                         },
                         "birch": {
                             "carbon_footprint": 5,
                             "responsible_sourcing": 7,
-                            "amount": 123
+                            "amount": 141
                         }
                     }
                 }
@@ -141,12 +141,12 @@
                         "acai": {
                             "carbon_footprint": 5,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 202
                         },
                         "oak": {
                             "carbon_footprint": 5,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 110
                         }
                     }
                 },
@@ -156,12 +156,12 @@
                         "acai": {
                             "carbon_footprint": 5,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 138
                         },
                         "oak": {
                             "carbon_footprint": 5,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 34
                         }
                     }
                 },
@@ -171,12 +171,12 @@
                         "acai": {
                             "carbon_footprint": 6,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 124
                         },
                         "oak": {
                             "carbon_footprint": 5,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 182
                         }
                     }
                 },
@@ -186,12 +186,12 @@
                         "acai": {
                             "carbon_footprint": 6,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 218
                         },
                         "oak": {
                             "carbon_footprint": 6,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 101
                         }
                     }
                 },
@@ -201,12 +201,12 @@
                         "acai": {
                             "carbon_footprint": 6,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 133
                         },
                         "oak": {
                             "carbon_footprint": 6,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 84
                         }
                     }
                 },
@@ -216,12 +216,12 @@
                         "acai": {
                             "carbon_footprint": 7,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 186
                         },
                         "oak": {
                             "carbon_footprint": 5,
                             "responsible_sourcing": 8,
-                            "amount": 123
+                            "amount": 8
                         }
                     }
                 }

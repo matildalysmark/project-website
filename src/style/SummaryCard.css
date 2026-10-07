@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 .summary-container{
-    background-color: #ebebe998; /*F5EFE7*/
+    background-color: white;
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 10px;
@@ -9,6 +9,7 @@
     min-height: 200px;
     box-sizing: border-box; /*Makes sure size includes its panning and border*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.081);
+    border: 2px solid rgba(224, 223, 223, 0.29);
     color: #2e2e2e;
     display: flex;
     flex-direction: column;
