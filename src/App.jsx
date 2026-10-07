@@ -4,6 +4,7 @@ import SupplierGridPage from './Pages/SupplierGridPage'
 import SupplierInfoPage from "./Pages/SupplierInfoPage";
 import NotFoundPage from "./Pages/NotFoundPage";
 import supplier_data from '../data/supplier_data.json';
+import HomePage from "./Pages/HomePage";
 import Header from "./components/Header/Header";
 import { SidebarBox } from "./components/Sidebar/sidebarbox";
 

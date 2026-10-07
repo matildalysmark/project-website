@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* transparent box to wrap and hold the cards */
+.card-wrapper{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    gap: 20px;
+    width: 100%;
+}
+
+/* main container of each card*/
+.card-container{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 250px;
+    min-height: 150px;
+    padding: 20px;
+    background-color: #ffffff; 
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    text-align: left;
+}
+
+/*header with rubric and icon with icon-box*/
+.card-header-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* header */
+.card-container h3{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+}
+
+/* box that holds the icon*/
+.icon-box{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+/* large value displayed in the middle*/
+.card-value{
+    margin: 18px 0 16px 0;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(31, 30, 30);
+}
+
+/* small subtext with info*/
+.card-subtext{
+    font-size: 11px;
+}
