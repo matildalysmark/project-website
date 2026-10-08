@@ -64,8 +64,22 @@
     border-radius: 0 0 5px 5px; 
 }
 
-.bar-rect{
-    width: 30px;
-    height: 100%;
-    border-radius: 5px;
+.overall-score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 14px 15px 0;
+    padding-top: 10px;
+    border-top: 1px solid #e0dfdf;
+    font-family: 'Roboto', sans-serif;
+}
+
+.overall-score-label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.overall-score-value {
+    font-size: 18px;
+    font-weight: 700;
 }

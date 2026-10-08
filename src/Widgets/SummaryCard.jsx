@@ -2,6 +2,7 @@ import '../style/SummaryCard.css';
 import data from '/data/supplier_data.json'
 import { Atom, TreePine, HandHeart } from 'lucide-react';
 import { useNavigate } from 'react-router-dom'
+import { getAverageScore } from "../helper/scoreUtils";
 
 export default function SummaryCard({ id }) {
     const supplier = data.suppliers[id]; // supplier id, e.g. 'abc_ab'
@@ -43,6 +44,11 @@ export default function SummaryCard({ id }) {
                     </div>
                     <HandHeart size={20} color='#A8251D'/>
                 </div>
+            </div>
+
+            <div className='overall-score'>
+                <span className='overall-score-label'>Overall score</span>
+                <span className='overall-score-value'>{getAverageScore(supplier)}</span>
             </div>
         </div>
     );
