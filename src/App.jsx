@@ -1,4 +1,5 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route, useLocation } from "react-router-dom";
+import "./style/App.css";
 import ProjectInfoPage from "./Pages/ProjectInfoPage";
 import SupplierGridPage from './Pages/SupplierGridPage'
 import SupplierInfoPage from "./Pages/SupplierInfoPage";
@@ -10,36 +11,43 @@ import HomePage from "./Pages/HomePage";
 import Header from "./components/Header/Header";
 import { SidebarBox } from "./components/Sidebar/sidebarbox";
 
-function App() {
+function AppContent() {
   const supplierIds = Object.keys(supplier_data.suppliers);
+  const { pathname } = useLocation();
+  const isDemoPage = pathname.startsWith("/app");
 
   return (
-    <HashRouter>
-      <div style={{ display: 'flex', minHeight: "100vh", width: "100%" }}>
-        <SidebarBox />
+    <div className="app-shell">
+      {isDemoPage && <SidebarBox />}
 
-        <div style={{ display: "flex", flexDirection: "column", flex: 1, minWidth: 0 }}>
-          
-          <main style={{ flex: 1, overflowY: "auto" }}>
-            <Routes>
-              <Route path="/" element={<ProjectInfoPage />} />
-              <Route path="/app" element={<HomePage />} />
-              <Route path="/app/compare" element={<ComparePage />} />
-              <Route path="/app/custom_score" element={<CustomScoreEdit />} />
-              <Route path="/app/suppliers" element={<SupplierGridPage />} />
-              {supplierIds.map((supplierId) => (
-                <Route
-                  key={supplierId}
-                  path={`/app/suppliers/${supplierId}`}
-                  element={<SupplierInfoPage supplier_id={supplierId} />}
-                />
-              ))}
-              <Route path="*" element={<NotFoundPage />} />
-            </Routes>
-          </main>
-          <Header />
-        </div>
+      <div className={isDemoPage ? "app-content demo-content" : "app-content"}>
+        <main className="app-main">
+          <Routes>
+            <Route path="/" element={<ProjectInfoPage />} />
+            <Route path="/app" element={<HomePage />} />
+            <Route path="/app/compare" element={<ComparePage />} />
+            <Route path="/app/custom_score" element={<CustomScoreEdit />} />
+            <Route path="/app/suppliers" element={<SupplierGridPage />} />
+            {supplierIds.map((supplierId) => (
+              <Route
+                key={supplierId}
+                path={`/app/suppliers/${supplierId}`}
+                element={<SupplierInfoPage supplier_id={supplierId} />}
+              />
+            ))}
+            <Route path="*" element={<NotFoundPage />} />
+          </Routes>
+        </main>
+        {isDemoPage && <Header />}
       </div>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <HashRouter>
+      <AppContent />
     </HashRouter>
   );
 }
