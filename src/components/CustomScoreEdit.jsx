@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 export default function CustomScoreEdit() {
     const [scoreTuning, setScoreTuning] = useState({
         carbon_footprint: 1,
