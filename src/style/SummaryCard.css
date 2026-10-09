@@ -27,6 +27,7 @@
     font-size: 20px;
     color: black;
     padding-bottom: 10px;
+    margin-bottom: 18px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -49,6 +50,10 @@
     gap: 8px; 
 }
 
+.individual-value {
+    font-weight: 700;
+}
+
 .bar{
     width: 28px;
     height: 90px;
@@ -57,6 +62,42 @@
     flex-direction: column;
     justify-content: flex-end; 
     overflow: hidden;
+}
+
+.carbon-bar {
+    background-color: #D6DDD9;
+}
+
+.carbon-bar-fill {
+    background-color: #2C594F;
+}
+
+.carbon-icon {
+    color: #2C594F;
+}
+
+.resourcing-bar {
+    background-color: #DDE2D1;
+}
+
+.resourcing-bar-fill {
+    background-color: #52732B;
+}
+
+.resourcing-icon {
+    color: #52732B;
+}
+
+.labor-bar {
+    background-color: #F0D4CF;
+}
+
+.labor-bar-fill {
+    background-color: #A8251D;
+}
+
+.labor-icon {
+    color: #A8251D;
 }
 
 .bar-fill{
@@ -82,4 +123,19 @@
 .overall-score-value {
     font-size: 18px;
     font-weight: 700;
+}
+
+.overall-score-bar {
+    width: calc(100% - 30px);
+    height: 22px;
+    margin: 10px 15px 0;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #F0D4CF;
+}
+
+.overall-score-bar-fill {
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+    background-color: #4f92bc;
 }
