@@ -69,11 +69,11 @@
 }
 
 .carbon-bar-fill {
-    background-color: #2C594F;
+    background-color: #3F8D90;
 }
 
 .carbon-icon {
-    color: #2C594F;
+    color: #3F8D90;
 }
 
 .resourcing-bar {
@@ -81,11 +81,11 @@
 }
 
 .resourcing-bar-fill {
-    background-color: #52732B;
+    background-color: #307236;
 }
 
 .resourcing-icon {
-    color: #52732B;
+    color: #307236;
 }
 
 .labor-bar {
@@ -93,11 +93,11 @@
 }
 
 .labor-bar-fill {
-    background-color: #A8251D;
+    background-color: #E0433E;
 }
 
 .labor-icon {
-    color: #A8251D;
+    color: #E0433E;
 }
 
 .bar-fill{
@@ -137,5 +137,5 @@
 .overall-score-bar-fill {
     height: 100%;
     border-radius: 5px 0 0 5px;
-    background-color: #4f92bc;
+    background-color: #3B8AF3;
 }
