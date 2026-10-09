@@ -42,7 +42,6 @@ export default function SupplierInfoPage() {
             </div>
             <br />
             <div>
-                <h2>Data</h2>
                 <SupplierDataTable data={data} />
             </div>
         </div>
